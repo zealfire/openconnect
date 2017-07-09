@@ -40,5 +40,6 @@ Currently I have tested this only on ubuntu 16.04, hopefully in coming days I wi
 11. Now we need to restart nautilus typing this command in the terminal: <code>nautilus -q</code>
 
 12. After this you can access your newly created vpn command on right clicking under Nautilus-Actions actions.
+![click_nautilus](https://user-images.githubusercontent.com/5805013/27996495-a177e27e-6500-11e7-8c80-23decaaf7619.png)
 
 Happy browsing :smiley:
