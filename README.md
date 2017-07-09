@@ -31,7 +31,7 @@ Currently I have tested this only on ubuntu 16.04, hopefully in coming days I wi
 
 9. Click the Command tab and in Label box enter any suitable name like *VPN* and in Path box this: */usr/local/bin/vpn*
 
-10. Since we would need terminal for executing our newly created vpn command, in nautilus-actions tool, go to Edit > Preferences > Runtime Execution. In the "command pattern" field, enter: gnome-terminal -x sh -c COMMAND
+10. Since we would need terminal for executing our newly created vpn command, in nautilus-actions tool, go to Edit > Preferences > Runtime Execution. In the "command pattern" field, enter: *gnome-terminal -x sh -c COMMAND*
 
 11. Now we need to restart nautilus typing this command in the terminal: <code>nautilus -q</code>
 
