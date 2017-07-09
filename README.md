@@ -1,6 +1,6 @@
 openconnect
 =================
-The reason behind developing this tool was to automate the process of connecting to VPN. My daily work required me to connect to a VPN, Cisco AnyConnect client was the obvious choice but I was facing some issues installing the same in Ubuntu so instead I choose openconnect. Using this I am able to connect to VPN via few mouse clicks.
+The reason behind developing this tool was to ease the process of connecting to VPN. My daily work required me to connect to a VPN, Cisco AnyConnect client was the obvious choice but I was facing some issues installing the same in Ubuntu so instead I choose openconnect. Using this I am able to connect to VPN via few mouse clicks.
 
 ## System Requirements ##
 
