@@ -11,8 +11,8 @@ Currently I have tested this only on ubuntu 16.04, hopefully in coming days I wi
 1. Install expect using this command: <code>sudo apt-get install expect</code>
 
 2. Steps for installing openconnect: <br>
-..1. First run command below to active th TUN module: <code>sudo /sbin/modprobe tun</code>
-..2. Install OpenConnect: <code>sudo apt-get install openconnect</code>
+	1. First run command below to active th TUN module: <code>sudo /sbin/modprobe tun</code>
+	2. Install OpenConnect: <code>sudo apt-get install openconnect</code>
 
 3. Download this module and make openconnect script executable like this:
    <code>chmod +x /path/to/openconnect.sh</code>
