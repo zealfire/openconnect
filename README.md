@@ -26,12 +26,16 @@ Currently I have tested this only on ubuntu 16.04, hopefully in coming days I wi
 	<code>sudo apt-get install nautilus-actions</code>
 
 7. Launch the Nautilus-Actions Configuration Tool from the Dash after installing it.
+![dash_nautilus](https://user-images.githubusercontent.com/5805013/27996398-f211eb8c-64fe-11e7-808a-2d617d1ebecd.png)
 
 8. First, click the New Action button on the toolbar and type the name of your action into the Context Label box, may be something like this: *Connect to VPN*
+![nautilus_action](https://user-images.githubusercontent.com/5805013/27996413-2dbe33c0-64ff-11e7-8c10-dc481a462898.png)
 
 9. Click the Command tab and in Label box enter any suitable name like *VPN* and in Path box this: */usr/local/bin/vpn*
+![nautilus_command](https://user-images.githubusercontent.com/5805013/27996416-3f203ab4-64ff-11e7-8907-8fc1f3fd7ffa.png)
 
 10. Since we would need terminal for executing our newly created vpn command, in nautilus-actions tool, go to Edit > Preferences > Runtime Execution. In the "command pattern" field, enter: *gnome-terminal -x sh -c COMMAND*
+![nautilus_preference](https://user-images.githubusercontent.com/5805013/27996420-4bf8911e-64ff-11e7-931d-9a3188cf2364.png)
 
 11. Now we need to restart nautilus typing this command in the terminal: <code>nautilus -q</code>
 
