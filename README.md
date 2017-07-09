@@ -17,7 +17,7 @@ Currently I have tested this only on ubuntu 16.04, hopefully in coming days I wi
 3. Download this module and make openconnect script executable like this:
    <code>chmod +x /path/to/openconnect.sh</code>
 
-4. Changes these variables: *GATEWAY*, *UBUNTUPASSWORD*, *USERNAME*, *PASSWORD* present in script as per your environment.
+4. Change these variables: *GATEWAY*, *UBUNTUPASSWORD*, *USERNAME*, *PASSWORD* present in script as per your environment.
 
 5. Run the script like this:
 	<code>./openconnect.sh</code>, this is when you are in the root directory of the module otherwise add path to your module.
