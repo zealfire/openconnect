@@ -17,22 +17,24 @@ Currently I have tested this only on ubuntu 16.04, hopefully in coming days I wi
 3. Download this module and make openconnect script executable like this:
    <code>chmod +x /path/to/openconnect.sh</code>
 
-4. Run the script like this:
+4. Changes these variables: *GATEWAY*, *UBUNTUPASSWORD*, *USERNAME*, *PASSWORD* present in script as per your environment.
+
+5. Run the script like this:
 	<code>./openconnect.sh</code>, this is when you are in the root directory of the module otherwise add path to your module.
 
-5. Now we have to install Nautilus-Actions Configuration Tool, type this in the terminal:
+6. Now we have to install Nautilus-Actions Configuration Tool, type this in the terminal:
 	<code>sudo apt-get install nautilus-actions</code>
 
-6. Launch the Nautilus-Actions Configuration Tool from the Dash after installing it.
+7. Launch the Nautilus-Actions Configuration Tool from the Dash after installing it.
 
-7. First, click the New Action button on the toolbar and type the name of your action into the Context Label box, may be something like this: *Connect to VPN*
+8. First, click the New Action button on the toolbar and type the name of your action into the Context Label box, may be something like this: *Connect to VPN*
 
-8. Click the Command tab and in Label box enter any suitable name like *VPN* and in Path box this: */usr/local/bin/vpn*
+9. Click the Command tab and in Label box enter any suitable name like *VPN* and in Path box this: */usr/local/bin/vpn*
 
-9. Since we would need terminal for executing our newly created vpn command, in nautilus-actions tool, go to Edit > Preferences > Runtime Execution. In the "command pattern" field, enter: gnome-terminal -x sh -c COMMAND
+10. Since we would need terminal for executing our newly created vpn command, in nautilus-actions tool, go to Edit > Preferences > Runtime Execution. In the "command pattern" field, enter: gnome-terminal -x sh -c COMMAND
 
-10. Now we need to restart nautilus typing this command in the terminal: <code>nautilus -q</code>
+11. Now we need to restart nautilus typing this command in the terminal: <code>nautilus -q</code>
 
-11. After this you can access your newly created vpn command on right clicking under Nautilus-Actions actions.
+12. After this you can access your newly created vpn command on right clicking under Nautilus-Actions actions.
 
 Happy browsing :smiley:
