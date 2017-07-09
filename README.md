@@ -1,6 +1,6 @@
 openconnect
 =================
-The reason behind developing this tool was to ease the process of connecting to VPN. My daily work required me to connect to a VPN, Cisco AnyConnect client was the obvious choice but I was facing some issues installing the same in Ubuntu so instead I choose openconnect. Using this I am able to connect to VPN via few mouse clicks.
+The reason behind developing this project was to ease the process of connecting to VPN. In my daily work I constantly required a VPN connection, Cisco AnyConnect client was the obvious choice but because I was facing some issues installing the same in ubuntu so instead I choose openconnect. After following below mentioned step, I am now able to get connected to a vpn using few mouse clicks.
 
 ## System Requirements ##
 
@@ -14,10 +14,10 @@ Currently I have tested this only on ubuntu 16.04, hopefully, in coming days I w
 	1. First run command below to active th TUN module: <code>sudo /sbin/modprobe tun</code>
 	2. Install OpenConnect: <code>sudo apt-get install openconnect</code>
 
-3. Download this module and make openconnect script executable like this:
+3. Download <a href="https://github.com/zealfire/openconnect">the</a> module and make openconnect script executable like this:
    <code>chmod +x /path/to/openconnect.sh</code>
 
-4. Change these variables: *GATEWAY*, *UBUNTUPASSWORD*, *USERNAME*, *PASSWORD* present in the script as per your environment.
+4. Change these variables: *GATEWAY*, *UBUNTUPASSWORD*, *USERNAME*, *PASSWORD* present in the script (openconnect.sh) as per your environment.
 
 5. Run the script like this:
 	<code>./openconnect.sh</code>, this is when you are in the root directory of the module otherwise add the path to your module.
@@ -42,4 +42,5 @@ Currently I have tested this only on ubuntu 16.04, hopefully, in coming days I w
 12. After this, you can access your newly created VPN command on right clicking under Nautilus-Actions actions.
 ![click_nautilus](https://user-images.githubusercontent.com/5805013/27996495-a177e27e-6500-11e7-8c80-23decaaf7619.png)
 
+<a href="http://zealfire.github.io/Encounter-with-vpn">Link</a> to blog.
 Happy browsing :smiley:
